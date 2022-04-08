@@ -1,0 +1,48 @@
+#ifndef __FTP_REPLY_CODES_H__
+#define __FTP_REPLY_CODES_H__
+
+#define FTP_REPLY_RESTART_MARKER_REPLY_D   "110"
+#define FTP_REPLY_SERVICE_READY_IN_N_D     "120"
+#define FTP_REPLY_DATA_CONN_ALREADY_OPEN_D "125"
+#define FTP_REPLY_FILE_STATUS_OK_D         "150"
+
+#define FTP_REPLY_CMD_OK_D               "200"
+#define FTP_REPLY_SUPERFLUOS_CMD_D       "202"
+#define FTP_REPLY_SYS_STATUS_D           "211"
+#define FTP_REPLY_DIR_STATUS_D           "212"
+#define FTP_REPLY_FILE_STATUS_D          "213"
+#define FTP_REPLY_HELP_MSG_D             "214"
+#define FTP_REPLY_NAME_SYS_TYPE_D        "215"
+#define FTP_REPLY_SERVICE_READY_D        "220"
+#define FTP_REPLY_CLOSE_CTRL_D           "221"
+#define FTP_REPLY_DATA_CONN_OPEN_D       "225"
+#define FTP_REPLY_CLOSE_DATA_D           "226"
+#define FTP_REPLY_PASSIVE_MODE           "227"
+#define FTP_REPLY_USER_LOGGED_IN_D       "230"
+#define FTP_REPLY_FILE_ACTION_READY_D    "250"
+#define FTP_REPLY_PATHNAME_CORRECTED_D   "257"
+
+#define FTP_REPLY_NEED_PASSWORD_D        "331"
+#define FTP_REPLY_NEED_ACCOUNT_D         "332"
+#define FTP_REPLY_MORE_INFO_D            "350"
+
+#define FTP_REPLY_SERVICE_NOT_AVAIL_D      "421"
+#define FTP_REPLY_CANT_OPEN_DATA_D         "425"
+#define FTP_REPLY_TRANSFER_ABORT_D         "426"
+#define FTP_REPLY_FILE_BUSY_D              "450"
+#define FTP_REPLY_LOCAL_ERROR_D            "451"
+#define FTP_REPLY_INSUFFICIENT_SPACE_SYS_D "452"
+
+#define FTP_REPLY_UNKNOWN_CMD_D            "500"
+#define FTP_REPLY_INVALID_ARGS_D           "501"
+#define FTP_REPLY_CMD_NOT_IMP_D            "502"
+#define FTP_REPLY_BAD_CMD_SEQ_D            "503"
+#define FTP_REPLY_CMD_NOT_IMP_PARAM_D      "504"
+#define FTP_REPLY_NOT_LOGGED_IN_D          "530"
+#define FTP_REPLY_NEED_ACCOUNT_STORE_D     "532"
+#define FTP_REPLY_FILE_UNAVAIL_D           "550"
+#define FTP_REPLY_UNKNOWN_PAGE_TYPE_D      "551"
+#define FTP_REPLY_INSUFFICIENT_SPACE_DIR_D "552"
+#define FTP_REPLY_FILENAME_NOT_ALLOWED_D   "553"
+
+#endif // __FTP_REPLY_CODES_H__

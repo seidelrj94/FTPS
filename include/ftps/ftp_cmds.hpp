@@ -1,0 +1,40 @@
+#ifndef __FTP_CMDS_H__
+#define __FTP_CMDS_H__
+
+#define FTP_CMD_USER_D                 "USER"
+#define FTP_CMD_PASSWORD_D             "PASS"
+#define FTP_CMD_ACCOUNT_D              "ACCT"
+#define FTP_CMD_CHANGE_WORKING_DIR_D   "CWD"
+#define FTP_CMD_CHNAGE_TO_PARENT_DIR_D "CDUP"
+#define FTP_CMD_STRUCTURE_MOUNT_D      "SMNT"
+#define FTP_CMD_REINITIALIZE_D         "REIN"
+#define FTP_CMD_LOGOUT_D               "QUIT"
+
+#define FTP_CMD_DATA_PORT_D         "PORT"
+#define FTP_CMD_PASSIVE_D           "PASV"
+#define FTP_CMD_REPRESENTATION_D    "TYPE"
+#define FTP_CMD_FILE_STRUCTURE_D    "STRU"
+#define FTP_CMD_TRANSFER_MODE_D     "MODE"
+
+#define FTP_CMD_RETRIEVE_D          "RETR"
+#define FTP_CMD_STORE_D             "STOR"
+#define FTP_CMD_STORE_UNIQUE_D      "STOU"
+#define FTP_CMD_APPEND_D            "APPE"
+#define FTP_CMD_ALLOCATE_D          "ALLO"
+#define FTP_CMD_RESTART_D           "REST"
+#define FTP_CMD_RENAME_FROM_D       "RNFR"
+#define FTP_CMD_RENAME_TO_D         "RNTO"
+#define FTP_CMD_ABORT_D             "ABOR"
+#define FTP_CMD_DELETE_D            "DELE"
+#define FTP_CMD_REMOVE_DIR_D        "RMD"
+#define FTP_CMD_MAKE_DIR_D          "MKD"
+#define FTP_CMD_PRINT_WORKING_DIR_D "PWD"
+#define FTP_CMD_LIST_D              "LIST"
+#define FTP_CMD_NAME_LIST_D         "NLST"
+#define FTP_CMD_SITE_D              "SITE"
+#define FTP_CMD_SYSTEM_D            "SYST"
+#define FTP_CMD_STATUS_D            "STAT"
+#define FTP_CMD_HELP_D              "HELP"
+#define FTP_CMD_NOOP_D              "NOOP"
+
+#endif // __FTP_REPLY_CODES_H__
